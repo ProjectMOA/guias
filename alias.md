@@ -4,7 +4,7 @@ Para configurar un alias, se usa la siguiente sintaxis
 ```
 git config --global alias.<al> "<com>"
 ```
-Donde <al> es el alias que sustituira al comando <com>.
+Donde <al> es el alias que sustituira al comando \<com\>.
 
 Un ejemplo de algunos alias utiles son
 ```
