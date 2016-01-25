@@ -1,10 +1,10 @@
 # Tutoriales
 
-Este fichero almancenará un pequeño listado de algunos tutoriales
-útiles para un usuario de git tanto novato como avanzado.
+Este fichero almancenarÃ¡ un pequeÃ±o listado de algunos tutoriales
+Ãºtiles para un usuario de git tanto novato como avanzado.
 
 Es de considerar que estos tutoriales tienden a centrarse en GitHub
-como solución de repositorio online, pero existen gran cantidad de
+como soluciÃ³n de repositorio online, pero existen gran cantidad de
 servicios de este estilo, como bitbucket.org, GitLab.com,
 assembla.com, gitenterprise.com, etc...
 
@@ -13,12 +13,12 @@ assembla.com, gitenterprise.com, etc...
     bastante adecuado para un novato.
 
 * https://www.atlassian.com/git/tutorials/
-  * Bastante más denso que el anterior, pero te puede convertir en un
-    auténtico experto.
+  * Bastante mÃ¡s denso que el anterior, pero te puede convertir en un
+    autÃ©ntico experto.
 
 * http://eagain.net/articles/git-for-computer-scientists/
-  * Adecuado para aquellos que no temen términos como grafo dirigido
-    acíclico, te da bastante información sobre el funcionamiento
+  * Adecuado para aquellos que no temen tÃ©rminos como grafo dirigido
+    acÃ­clico, te da bastante informaciÃ³n sobre el funcionamiento
     interno de git, y como afecta a su uso.
 
 * http://www-cs-students.stanford.edu/~blynn/gitmagic/index.html

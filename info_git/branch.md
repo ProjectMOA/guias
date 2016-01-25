@@ -1,5 +1,5 @@
 # Branches
-øQue es un branch?
+Qu√© es un branch?
 
 Como desarrollador y usuario de Git, puedes imaginar un branch como
 una copia paralela de tu proyecto, que te permite realizar cambios
@@ -19,7 +19,7 @@ Que nos produce una salida como la siguiente:
 ```
 
 Esto significa que en el repositorio actual solo tenemos un branch,
-denominado master, y el asterisco nos indica cu·l tenemos
+denominado master, y el asterisco nos indica cuÔøΩl tenemos
 seleccionado.
 
 Ahora, creamos un nuevo branch con los comandos:
@@ -36,7 +36,7 @@ el. Existe la forma resumida:
 git checkout -b test
 ```
 
-Que crear· un branch y cambiar· a Èl, siendo el nuevo estado:
+Que crear√° un branch y cambiar√° a √©l, siendo el nuevo estado:
 
 ```
 $> git branch
@@ -58,19 +58,19 @@ git checkout master
 Y eso devolvera a nuestro directorio de trabajo al estado en el que
 empezamos.
 
-Una vez estemos contentos con nuestro trabajo, no queda m·s que hacer un
+Una vez estemos contentos con nuestro trabajo, no queda m√°s que hacer un
 
 ```
 git merge <fuente> <destino>
 ```
 
 Que aplica a nuestro branch destino los cambios de fuente, en el caso
-trabajado, la fuente serÌa el branch experimental y el destino el
+trabajado, la fuente ser√≠a el branch experimental y el destino el
 branch estable master.
 
 Ten en cuenta que se pueden tener tantos branches abiertos como se
 desee en un momento dado; como ejemplo, el proyecto Git tiene abiertos
 siempre 5 branch (master, next, maint, pu y todo), y se crean y
-destruyen varios al dÌa.
+destruyen varios al d√≠a.
 
-Esta informaciÛn se expande en el capÌtulo 3 del libro adjunto
+Esta informaci√≥n se expande en el cap√≠tulo 3 del libro adjunto

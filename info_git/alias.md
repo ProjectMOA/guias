@@ -23,4 +23,4 @@ En vez del antiguo
 ```
 git commit -m "Initial commit"
 ```
-Lo cual es obviamente mucho m·s cÛmodo
+Lo cual es obviamente mucho m√°s c√≥modo
