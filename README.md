@@ -1,7 +1,8 @@
 # guias
 Este repositorio está dedicado a ofrecer un conjunto de datos (tutoriales,
 información, guías...) sobre diversos temas relacionados con el ámbito de la
-informática.
+informática, para que todo el mundo pueda solventar sus dudas en la medida de
+lo posible.
 
 ##Cómo contribuir?
 1. Haz fork del repositorio.
@@ -10,8 +11,8 @@ informática.
 
 ##Qué añadir?
 Puedes añadir cualquier clase de información que pueda resultar válida y útil
-para otros, ya sea información propia, ajena bajo la licencia correspondiente o
-sintentizada a modo de resumen. Solamente hay 3 normas:
+para otros, ya sea información propia, ajena bajo la licencia correspondiente
+o sintentizada a modo de resumen. Solamente hay 3 normas:
 
 1. Si añades un nuevo tema, por favor crea un nuevo directorio identificado de
 la forma *info_DESC* donde *DESC* es el nombre del tema sobre el que añades
