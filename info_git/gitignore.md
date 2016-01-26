@@ -5,31 +5,41 @@ Makefile lo es para make), que indica a git un conjunto de archivos
 que no tiene que seguir (track en la literatura inglesa).
 
 Esto nos permite definir, por ejemplo, que git ignore archivos
-intermedios de compilaciÛn, copias de seguridad personales, archivos
+intermedios de compilaci√≥n, copias de seguridad personales, archivos
 de notas que guardamos en nuestro repositorio local pero no queremos
-que estÈn disponibles para nuestros colaboradores, archivos con claves
+que est√©n disponibles para nuestros colaboradores, archivos con claves
 sensibles, etc...
 
-Un ejemplo de archivo .gitignore tÌpico para un proyecto en C sencillo
-serÌa:
+Un ejemplo de archivo .gitignore t√≠pico para un proyecto en C sencillo
+ser√≠a:
 
 ```
-# Ignorar archivos de compilaciÛn intermedios
-*.[ao]
+# Ignorar archivos de compilacion intermedios
+**/*.[ao]
 # Ignorar copias de seguridad locales
-*~
+**/*~
 ```
 
-Tal y como esta descrito en el propio archivo (lÌneas en blanco y
-lÌneas que empiecen en # son comentarios), este archivo har· que git
-ignore cualquier fichero que acabe en .o, .a o ~, lo cual evitar· que
-nuestro repositorio en red se llene de ficheros objeto o librerÌas
-compiladas.
+Tal y como esta descrito en el propio archivo (l√≠neas en blanco se
+ignoran, y l√≠neas que empiecen en # son comentarios), este archivo
+har√° que git ignore cualquier fichero que acabe en .o, .a o ~, lo
+cual evitar√° que nuestro repositorio en red se llene de ficheros
+objeto o librer√≠as compiladas.
 
 Los patrones que admite .gitignore son los llamados patrones glob
-(glob patterns en la literatura inglesa), que en nuestro caso ser·
-suficiente con entender que son los patrones de expansiÛn que entiende
-la consola.
+(glob patterns en la literatura inglesa), que en nuestro caso ser√≠a
+suficiente con entender que son los patrones de expansi√≥n que entiende
+la consola. La excepci√≥n son los patrones de la forma
 
-En caso de que se tenga m·s curiosidad, se puede obtener m·s
-informaciÛn en el libro adjunto proGit, paginas 50 y 51
+```
+**/*~
+```
+
+Que indican que se ignore cualquier fichero terminado en ~ en el
+directorio actual y en cualquiera de los subdirectorios.
+
+GitHub ofrece ejemplos de archivos para diferentes lenguajes de
+programacion en el repositorio https://github.com/github/gitignore
+
+En caso de que se tenga m√°s curiosidad, se puede obtener m√°s
+informaci√≥n en el libro adjunto proGit, paginas 50 y 51
