@@ -20,7 +20,7 @@ información (puede ser una cadena de nombres en formato camel case).
 2. Si añades código fuente a modo de ejemplo (fuentes,compilados, recursos ...),
 dentro de la carpeta del tema correspondiente crea un nuevo directorio
 denominado *examples* y ubica dicho código ahí con la estructura de ficheros que
-desees.
+desees. Si es necesario, a�ade los patrones necesarios a *.gitignore*.
 
 3. No te olvides de añadir un fichero *README.md* en el que se describa a
 grandes rasgos lo que se encontrará en la carpeta.
