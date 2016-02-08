@@ -16,7 +16,7 @@ Un ambiente tabular toma 1 argumento, que consiste en una cadena de
 texto que indica cuantas columnas tiene la tabla, como se alinean, que
 separación tienen...
 
-En este caso
+En este caso:
 
 ```
 \begin{tabular}{ | r | r | }
@@ -26,26 +26,24 @@ Indica 2 columnas, ambas alineadas a la derecha, con líneas en todas
 las verticales en todas las columnas.
 
 En caso de que deseáramos eliminar la linea sepuratoria entre las
-columnas, podemos eliminar la barra vertical
+columnas, podemos eliminar la barra vertical.
 
 ```
 \begin{tabular}{ | r r | }
 ```
 
-En caso de que deseáramos añadir una barra doble
+En caso de que deseáramos añadir una barra doble:
 
 ```
 \begin{tabular}{ | r || r | }
 ```
 
-Nótese como no hay espacio separador
+Nótese como no hay espacio separador entre |.
 
-
-De la misma forma es posible alinear cada columna como se desee
-
-+   **r**: Alineado a la derecha
-+   **l**: Alineado a la izquierda
-+   **c**: Centrado
+De la misma forma es posible alinear cada columna como se desee:
++   **r**: Alineado a la derecha.
++   **l**: Alineado a la izquierda.
++   **c**: Centrado.
 +   **p{''anchura''}**: columna párrafo (gran cantidad de texto) alineado arriba
 +   **m{''anchura''}**: columna párrafo alineado centrado (requiere paquete array)
 +   **b{''anchura''}**: columna párrafo alineado abajo (requiere paquete array)
@@ -58,7 +56,7 @@ contiene menos simplemente quedarán cuadros vacíos.
 
 Ninguno de los ejemplos dados contiene lineas horizontales, esto es
 porque Latex fuerza a ponerlos explícitamente utilizando 2 posibles
-comandos
+comandos:
 + **\hline**: Linea horizontal que recorre toda la tabla
 + **\cline{i-j}**: Linea horizontal que comienza en la columna i y se
   extiende hasta la j (Ambos inclusive). En Latex las columnas se
@@ -70,7 +68,7 @@ Una multicolumna es el resultado de unir varias columnas juntas dentro
 de una fila, mientras que una multifila es el resultado de unir
 varias filas juntas dentro de una columna.
 
-La signatura de ambos comandos es
+La signatura de ambos comandos es:
 
 ```
 \multicolumn{''numero''}{''alineamiento''}{''contenido''}
@@ -93,9 +91,9 @@ La signatura de ambos comandos es
 \usepackage{multirow} en tu preámbulo.
 
 Si se combinan columnas, no hay que poner todas las columnas, dado que
-dará error de compilación
+dará error de compilación.
 
-Expliquémoslo mejor con un ejemplo
+Expliquémoslo mejor con un ejemplo:
 
 ```
 1.\begin{tabular}{ | c | l | p{1cm} | r | }\cline{3-4}
@@ -112,10 +110,10 @@ se ha usado el formateado de ambos comandos para sobre escribir la
 configuración de la tabla y evitar que aparezcan lineas en la esquina
 superior-izquierda. De la misma forma, se puede ver como en la línea 5
 el primer cuadro de la tabla esta vacío, para evitar que aparezca el
-texto descentrado
+texto descentrado.
 
 Esta estructura nos permite generar los diccionarios 2x2, muy usados
-al comparar conjuntos de datos
+al comparar conjuntos de datos.
 
 En caso de necesitar más información, esta puede encontrarse
-[aquí]{https://en.wikibooks.org/wiki/LaTeX/Tables}
+[aquí](https://en.wikibooks.org/wiki/LaTeX/Tables)
