@@ -1,3 +1,9 @@
 # Ignorado de copias de seguridad de algunos editores de texto *nix
 **/*~
 **/#*#
+
+# Ignorado de patrones de compilado Latex
+**/*.aux
+**/*.idx
+**/*.log
+**/*.pdf

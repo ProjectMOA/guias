@@ -1,0 +1,60 @@
+\documentclass[12pt,letterpaper]{article}
+
+\usepackage{polyglossia}
+\setmainlanguage{spanish}       %Polyglossia language
+
+\usepackage[right=2cm,left=3cm,top=2cm,bottom=2cm,headsep=0cm,footskip=0.5cm]{geometry} %Program page margins and (text)position
+
+\usepackage{fontspec}           %Advanced font selection
+\usepackage[]{unicode-math}
+
+
+% It's Dangerous to Go Alone! Take This
+\begin{document}
+Hola
+
+Los ambientes en \LaTeX:
+
+\begin{center}
+  Hola
+\end{center}
+
+Formateando textos:
+
+\textbf{Hola} \textit{Hola} \texttt{Hola} \textbf{\textit{Hola}}
+\\                              % Forzamos rotura de parrafo
+Listas:
+\begin{itemize}
+  \item No numeradas
+  \item Segundo elemento
+  \item Tercer elemento\ldots
+\end{itemize}
+
+\begin{enumerate}
+  \item Y numeradas
+  \item Segundo elemento
+  \item Tercer elemento\ldots
+\end{enumerate}
+
+\begin{description}
+  \item[Para que?] Lista de descripciones
+  \item[Itemize] Listas numeradas
+  \item[Enumerate] Listas no numerada
+  \item[Description] Listas descrpitivas
+\end{description}
+
+Estas listas son anidables:
+\begin{itemize}
+  \item Facilmente
+  \begin{itemize}
+    \item Tanto como desees
+    \begin{enumerate}
+      \item Incluso combinando listas
+    \end{enumerate}
+  \end{itemize}
+\end{itemize}
+
+%% Podemos saltar páginas
+\clearpage
+Para comenzar en la siguiente, aunque no sea muy buena idea
+\end{document}
