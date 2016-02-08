@@ -20,11 +20,10 @@ tu sistema operativo:
 +  **Linux**: ~/texmf/tex/latex/local
 +  **Mac OS X**: /Users/*\<user name\>*/Library/texmf/tex/latex/local
 
-Para installar una librería, crea un directorio en la ruta adecuada
-dado tu sistema operativo, y copia el fichero *.sty* en el nuevo
-directorio, por ejemplo, si deseara instalar una libreria *title.sty*
-en linux, se colocaría en la ruta
-*~/texmf/tex/latex/local/title.sty*. Ten en cuenta que en general se
-puede colocar en cualquier subdirectorio de *~/texmf/tex/latex/* pero
-se referencia por el nombre del fichero *.sty*, por lo que asegurate
-de no tener colisiones de nombre.
+Para installar una librería, ve a la ruta adecuada dado tu sistema
+operativo, y copia el fichero *.sty* en el directorio, por ejemplo, si
+deseara instalar una libreria *title.sty* en linux, se colocaría en la
+ruta *~/texmf/tex/latex/local/title.sty*. Ten en cuenta que en general
+se puede colocar en cualquier subdirectorio de *~/texmf/tex/latex/*
+pero se referencia por el nombre del fichero *.sty*, por lo que
+asegurate de no tener colisiones de nombre.
