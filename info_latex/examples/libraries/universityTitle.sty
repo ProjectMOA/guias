@@ -1,0 +1,24 @@
+%This package is used as a template for front pages in university assignments
+\ProvidesPackage{universityTitle}[2016/02/12 v.01 my front page for assignments
+  from university]
+\RequirePackage{graphicx}
+\graphicspath{{/home/david/Images/university/}}
+\newcommand*{\project}[1]{\gdef\@project{#1}%
+}
+\newcommand*{\@project}{}
+\renewcommand*{\maketitle}{%
+\begin{titlepage}
+  \includegraphics[scale=0.8]{diisLogo}\par
+  \vspace{5cm}
+	\centering
+{\scshape\Large\@project\unskip\strut\par}
+\vspace{1cm}
+{\huge\bfseries\@title\unskip\strut\par}
+\vspace{0.7cm}
+{\Large\itshape\@author\unskip\strut\par}
+\vspace{5cm}
+{\large\@date\par}
+\vfill
+\end{titlepage}
+}
+\endinput

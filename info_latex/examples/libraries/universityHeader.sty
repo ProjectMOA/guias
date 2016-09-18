@@ -1,0 +1,26 @@
+%This package is used as a template for header in university assignments
+\ProvidesPackage{universityHeader}[2016/02/13 v.01 my header for single
+assignments from university]
+\RequirePackage{graphicx}
+\graphicspath{{/home/david/Images/university/}}
+\newcommand*{\project}[1]{\gdef\@project{#1}%
+}
+\newcommand*{\@project}{}
+\renewcommand*{\maketitle}{%
+  \begin{titlepage}
+    \flushleft
+    \raisebox{-.7\height}{\includegraphics[scale=0.8]{diisLogo}}
+    \hfill
+    \begin{minipage}[t]{7cm}
+      \flushright
+      {\Large\itshape\@author\unskip\strut}\\
+      {\scshape\Large\@project\unskip\strut}\\
+      {\large\@date}
+    \end{minipage}\par
+    \vspace{1cm}
+    \centering
+      {\huge\bfseries\@title\unskip\strut\par}
+      \vspace{1cm}
+  \end{titlepage}
+}
+\endinput
