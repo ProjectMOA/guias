@@ -1,6 +1,5 @@
 # Desplegar aplicaciones estáticas en Heroku
-Para poder integrar de una forma fácil y rápida los proyectos de GitHub
-con Heroku hay que seguir los siguientes pasos:
+Guía para poder desplegar una aplicación web estática con Ruby en Heroku.
 
 ## Prerequisitos
 1. Tener una cuenta gratuita en [Heroku](https://signup.heroku.com/dc).
