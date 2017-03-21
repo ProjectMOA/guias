@@ -7,3 +7,11 @@
 **/*.idx
 **/*.log
 **/*.pdf
+
+# intellij
+*.eml
+*.iml
+*.ipr
+*.iws
+.*.sw?
+.idea

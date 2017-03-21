@@ -1,15 +1,20 @@
-# guias
+# Guias
 Este repositorio está dedicado a ofrecer un conjunto de datos (tutoriales,
 información, guías...) sobre diversos temas relacionados con el ámbito de la
 informática, para que todo el mundo pueda solventar sus dudas en la medida de
 lo posible.
 
-##Cómo contribuir?
+# Contenido
+* [Git](https://github.com/nebur395/guias/tree/master/info_git)
+* [Latex](https://github.com/nebur395/guias/tree/master/info_latex)
+* [NodeJS](https://github.com/nebur395/guias/tree/master/info_nodeJS)
+
+## ¿Cómo contribuir?
 1. Haz fork del repositorio.
 2. Añade tu contribución (Asegúrate de que la licencia sea válida).
 3. Haz una pull request a la rama *master*.
 
-##Qué añadir?
+## ¿Qué añadir?
 Puedes añadir cualquier clase de información que pueda resultar válida y útil
 para otros, ya sea información propia, ajena bajo la licencia correspondiente
 o sintentizada a modo de resumen. Solamente hay 3 normas:

@@ -1,11 +1,11 @@
 Timestamp: \<2016-02-05 - 20:41\>
 
-###Recursos
+### Recursos
 
 Aquí se almacenará una lista de otros recursos útiles para realizar
 documentos en Latex con comodidad.
 
-###Detexify
+### Detexify
 +  [Detexify](http://detexify.kirelabs.org/classify.html)
 
 Un reconocedor de símbolos Latex a partir de escritura natural, es
@@ -17,27 +17,27 @@ paquetes externos.
 
 
 
-###LaTeX_Guide
+### LaTeX_Guide
 +  [Repositorio](https://github.com/dcelisgarza/LaTeX_Guide)
 
 Un documento escrito en Latex que contiene una gran cantidad de
 ejemplos de uso de Latex, desde los básicos hasta algunos de los
 elementos más avanzados.
 
-###Latex Wikibook
+### Latex Wikibook
 +  [Link](https://en.wikibooks.org/wiki/LaTeX)
 
 Uno de los tutoriales más completos existentes, incluye gran cantidad
 de información bien ordenada y detallada.
 
-###The Comprehensive LaTeX Symbol List
+### The Comprehensive LaTeX Symbol List
 +  [Link](http://osl.ugr.es/CTAN/info/symbols/comprehensive/symbols-a4.pdf)
 
 Documento de más de 300 páginas que contiene todos los símbolos Latex
 existentes. En caso de que Detexify no encuentre el símbolo que
 desees, puedes mirar si existe en este documento.
 
-###Editores online
+### Editores online
 +  [Overleaf](https://www.overleaf.com/)
 +  [ShareLatex](https://www.sharelatex.com/)
 +  [Papeeria](https://papeeria.com/)
@@ -45,7 +45,7 @@ desees, puedes mirar si existe en este documento.
 Estos son los más conocidos/usados, pero existen varios más. De la
 misma forma, también aparecen editores online de formulas matemáticas.
 
-###Editores offline
+### Editores offline
 +  [Lista completa](https://en.wikipedia.org/wiki/Comparison_of_TeX_editors)
 
 Fuente:

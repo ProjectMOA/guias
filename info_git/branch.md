@@ -19,7 +19,7 @@ Que nos produce una salida como la siguiente:
 ```
 
 Esto significa que en el repositorio actual solo tenemos un branch,
-denominado master, y el asterisco nos indica cu�l tenemos
+denominado master, y el asterisco nos indica cual tenemos
 seleccionado.
 
 Ahora, creamos un nuevo branch con los comandos:

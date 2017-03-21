@@ -1,4 +1,4 @@
-#Basicos
+# Basicos
 
 Un fichero Latex tiene la extensión *.tex*. A diferencia de los
 editores normales, que pertenecen a la familia de programas WYSIWYG
@@ -20,7 +20,7 @@ que hacen más simple la programación dentro de Latex. Como se
 considera que eso escapa a la cobertura de estos tutoriales, no se
 tratará
 
-#Estructura básica de un documento *.tex*
+# Estructura básica de un documento *.tex*
 ```
 \documentclass[11pt]{article}
 
@@ -32,7 +32,7 @@ tratará
 Este es el fichero *.tex* más básico posible. Un fichero *.tex* esta
 formado de 2 partes diferenciadas
 
-##Preámbulo
+## Preámbulo
 Aquí se configuran todos los parametros que pasaremos al compilador, que sin embargo no apareceran en el documento final. Esto incluye:
 + **documentclass**
 + Importados de paquetes
@@ -56,7 +56,7 @@ solo 1, generalmente es el texto a formatear), como opcionales
 (encerrados entre [], pueden ser varios, indican opciones sobre como
 se formateará el texto pasado a la función)
 
-###DocumentClass
+### DocumentClass
 Una "clase" aporta una plantilla base a un documento, eso incluye la
 importación automática de algunos paquetes, la predefinición de
 algunos parámetros, el formateado de página...
@@ -88,7 +88,7 @@ Algunas de las opciones que podemos pasar a estos tipos son:
 Aparte de estos existen muchos más
 [esta pagina](http://www.google.com) contiene todos los existentes.
 
-###Paquetes
+### Paquetes
 
 Los paquetes son conjuntos de funciones precreadas que puedes incluir
 en tu documento. Existen paquetes para realizar casi cualquier
@@ -99,7 +99,7 @@ tienen extensión *.sty*. Se incluyen en un documento con el comando
 \usepackage[options]{package}
 ```
 
-##Documento
+## Documento
 
 A diferencia del preambulo, que no requiere indicación particular, el
 documento ha de estar encerrado en un ambiente *document*
@@ -112,7 +112,7 @@ Hola
 
 El documento contiene el grueso del texto.
 
-###Ambientes
+### Ambientes
 
 Los ambientes (envionments) son zonas del documento que declaramos con
 un conjunto de propiedades, y que se interpretan de forma especial.

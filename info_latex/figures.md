@@ -1,4 +1,4 @@
-#Figuras
+# Figuras
 
 Una figura es un diagrama que deseamos destacar, el cual queremos
 remarcar sobre una imagen normal.

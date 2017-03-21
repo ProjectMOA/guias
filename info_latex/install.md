@@ -1,4 +1,4 @@
-#Instalación
+# Instalación
 
 [Wikibooks](https://en.wikibooks.org/wiki/LaTeX/Installation) contiene
 una guia de instalación bastante clara para los sistemas operativos
@@ -9,7 +9,7 @@ online que te permiten usar Latex sin necesidad de instalar nada en tu
 ordenador, como [ShareLatex](https://www.sharelatex.com/) u 
 [Overleaf](https://www.overleaf.com/).
 
-#Otras librerías
+# Otras librerías
 
 En caso de que desees instalar librerias que no estén en la
 instalación basica, tendrás que copiarlas en el directorio asociado a
