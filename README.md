@@ -8,6 +8,7 @@ lo posible.
 * [Git](https://github.com/nebur395/guias/tree/master/info_git)
 * [Latex](https://github.com/nebur395/guias/tree/master/info_latex)
 * [NodeJS](https://github.com/nebur395/guias/tree/master/info_nodeJS)
+* [Heroku](https://github.com/nebur395/guias/tree/master/info_heroku)
 
 ## ¿Cómo contribuir?
 1. Haz fork del repositorio.
