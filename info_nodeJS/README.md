@@ -1,7 +1,7 @@
-#Node.js
+# Node.js
 Aquí encontrarás información sobre Node.js,desde cómo empezar a usarlo hasta
 cómo programar un servidor web integrando diversos frameworks de desarrollo.
-#Qué es?
+# ¿Qué es?
 Es un entorno de ejecución orientado a JavaScript, cuyo objetivo principal es
 proporcionar un soporte para un servidor web aunque no es su único fin.
 Además del entorno de ejecución, node.js viene acompañado de su propio gestor de

@@ -1,11 +1,11 @@
-#LaTeX y TeX
+# LaTeX y TeX
 
 Aquí encontraras información sobre los sistemas de tipografía y
 generación de documentos LaTeX y su antecesor TeX. Esto incluye su
 instalación, utilidad, y explicaciones sobre algunas de sus
 funcionalidades más útiles.
 
-#Qué es?
+# ¿Qué es?
 
 Tanto LaTeX es una suite de trabajos de tipografía, esto incluye
 generación de documentos en múltiples formatos, un lenguaje de

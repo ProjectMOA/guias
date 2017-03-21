@@ -1,4 +1,4 @@
-#Imagenes
+# Imagenes
 
 Existen 2 formas de crear imágenes en un documento Latex. La primera
 es generarlos proceduralmente mediante alguno de los paquetes
@@ -16,7 +16,7 @@ inclusión del paquete *graphicx*:
 \usepackage{graphicx}
 ```
 
-###Configuración
+### Configuración
 
 Se puede utilizar el comando *graphicspath* para indicar la
 localización de las imágenes a usar. En caso de que el documento
@@ -54,7 +54,7 @@ de alta resolución para la impresión final.
 Los elementos se eligen primero el de más a la izquierda
 
 
-###Uso
+### Uso
 El comando básico para insertar imagenes es *includegraphics*:
 
 ```

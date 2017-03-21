@@ -1,4 +1,4 @@
-#Tablas
+# Tablas
 
 Las tablas son la forma de expresar información tabulada de manera
 clara
@@ -62,7 +62,7 @@ comandos:
   extiende hasta la j (Ambos inclusive). En Latex las columnas se
   indexan por 1 (Es decir la primera columna es la 1)
 
-#Multielementos
+# Multielementos
 
 Una multicolumna es el resultado de unir varias columnas juntas dentro
 de una fila, mientras que una multifila es el resultado de unir
