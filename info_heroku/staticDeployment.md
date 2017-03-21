@@ -10,9 +10,9 @@ con Heroku hay que seguir los siguientes pasos:
 1. Hay que crear una estructura de proyectos para *Rack*, para ello ejecutar
 los siguientes comandos:
 ```shell
- mkdir -p site/public/{images,js,css}
-touch site/{config.ru,public/index.html}
-cd site && bundle init
+$ mkdir -p site/public/{images,js,css}
+$ touch site/{config.ru,public/index.html}
+$ cd site && bundle init
 ```
 Esto debería crear la siguiente estructura de ficheros:
 ```
@@ -27,14 +27,14 @@ Esto debería crear la siguiente estructura de ficheros:
 ```
 2. Hay que añadir en el fichero *Gemfile* el siguiente contenido para que se
 descargue las dependencias de *Rack*:
-```
+```ruby
 source 'https://rubygems.org'
 gem 'rack'
 ```
 3. A continuación hay que ejecutar el siguiente comando para descargar las dependencias:
 `$ bundle install`
 4. Por último, hay que editar y añadir la siguiente información al fichero *config.ru*:
-```
+```ruby
 use Rack::Static,
   :urls => ["/images", "/js", "/css"],
   :root => "public"
@@ -51,5 +51,6 @@ run lambda { |env|
 }
 ```
 Es importante que cada vez que se quiera añadir una nueva carpeta, se añada en la línea 2 del fichero.
+
 5. Por último, para poder ejecutarlo si se desea, se ha de lanzar el comando `rackup`, el cual
 despliega la aplicación en la dirección `http://localhost:9292`.
